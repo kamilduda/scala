@@ -25,6 +25,7 @@ trait Internals {
     trait TransformApi {
       /** Calls the current transformer on the given tree.
        *  Current transformer = argument to the `transform` call.
+       *  test
        */
       def recur(tree: Tree): Tree
 
